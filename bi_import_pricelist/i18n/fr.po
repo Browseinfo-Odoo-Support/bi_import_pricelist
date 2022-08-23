@@ -1,0 +1,442 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_import_pricelist
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-04 08:26+0000\n"
+"PO-Revision-Date: 2021-06-04 08:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid " \"%s\" Company is not available."
+msgstr "\"%s\" L'entreprise n'est pas disponible."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid " \"%s\" Product is not available."
+msgstr "\"%s\" Le produit n'est pas disponible."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid " \"%s\" Product variant is not available."
+msgstr " \"%s\" La variante du produit n'est pas disponible."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid " \"%s\" Product varinat is not available."
+msgstr " \"%s\" La variante du produit n'est pas disponible."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid " \"%s\" is not a category."
+msgstr " \"%s\" n'est pas une catégorie."
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__apply_on__2_product_category
+msgid " Product Category"
+msgstr "catégorie de produit"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__apply_on
+msgid "Apply On"
+msgstr "Appliquer sur"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_product_pricelist__import_prod_option__barcode
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_prod_option__barcode
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_prod_variant_option__barcode
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_prod_option__barcode
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_prod_variant_option__barcode
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_prod_option__barcode
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_prod_variant_option__barcode
+msgid "Barcode"
+msgstr "code à barre"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__based_on
+msgid "Based on"
+msgstr "Basé sur"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_product_pricelist__import_option__csv
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_option__csv
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_option__csv
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_option__csv
+msgid "CSV File"
+msgstr "Fichier CSV"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_product_pricelist__import_prod_option__code
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_prod_option__code
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_prod_variant_option__code
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_prod_option__code
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_prod_variant_option__code
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_prod_option__code
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_prod_variant_option__code
+msgid "Code"
+msgstr "Code"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__company_id
+msgid "Company"
+msgstr "Compagnie"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__compute_type
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__compute_type
+msgid "Compute Type"
+msgstr "Type de calcul"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__based_on__standard_price
+msgid "Cost"
+msgstr "Coût"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__create_uid
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__create_uid
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__create_uid
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__create_date
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__create_date
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__create_date
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid ""
+"Currency is different for \"%s\" .\n"
+" Please define same."
+msgstr ""
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Currency is different for \"%s\" . Please define same."
+msgstr "La devise est différente pour \"%s\" . Veuillez définir la même chose."
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__display_name
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__display_name
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__display_name
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__file
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__file
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__file
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__file
+msgid "File"
+msgstr "Déposer"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__compute_type__fixed
+msgid "Fixed"
+msgstr "Fixée"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__compute_type__both
+msgid "Fixed/Percentage"
+msgstr "Fixe/Pourcentage"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__compute_type__formula
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__compute_type__formula
+msgid "Formula"
+msgstr "Formule"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__apply_on__3_global
+msgid "Global"
+msgstr "Globale"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__id
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__id
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__id
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__id
+msgid "ID"
+msgstr "identifiant"
+
+#. module: bi_import_pricelist
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_product_pricelist_wizard
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_sale_pricelist_wizard
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_sale_pricelist_wizard_option
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_vendor_pricelist_wizard
+msgid "Import"
+msgstr "Importer"
+
+#. module: bi_import_pricelist
+#: model:ir.actions.act_window,name:bi_import_pricelist.action_import_product_pricelist_wizard
+#: model:ir.ui.menu,name:bi_import_pricelist.import_product_pricelist
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_product_pricelist_wizard
+msgid "Import Product Pricelist"
+msgstr "Liste de prix des produits importés"
+
+#. module: bi_import_pricelist
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_sale_pricelist_wizard
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_sale_pricelist_wizard_option
+msgid "Import Sale Pricelist"
+msgstr "Liste de prix de vente à l'importation"
+
+#. module: bi_import_pricelist
+#: model:ir.actions.act_window,name:bi_import_pricelist.action_import_sale_pricelist_wizard
+#: model:ir.ui.menu,name:bi_import_pricelist.import_sale_pricelist
+msgid "Import Sale Pricelist -All Option from file"
+msgstr "Importer la liste des prix de vente - Toutes les options à partir du fichier"
+
+#. module: bi_import_pricelist
+#: model:ir.actions.act_window,name:bi_import_pricelist.action_import_sale_pricelist_wizard_option_2
+#: model:ir.ui.menu,name:bi_import_pricelist.import_sale_pricelist_wiz
+msgid "Import Sale Pricelist -Select Option from Wizard"
+msgstr "Importer la liste des prix de vente - Sélectionnez une option dans l'assistant"
+
+#. module: bi_import_pricelist
+#: model:ir.actions.act_window,name:bi_import_pricelist.action_import_vendor_pricelist_wizard
+#: model:ir.ui.menu,name:bi_import_pricelist.import_vendor_pricelist
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_vendor_pricelist_wizard
+msgid "Import Vendor Pricelist"
+msgstr "Liste de prix du fournisseur d'importation"
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Invalid file!"
+msgstr "Fichier non valide!"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist____last_update
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist____last_update
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard____last_update
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__write_uid
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__write_uid
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__write_uid
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__write_date
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__write_date
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__write_date
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_product_pricelist__import_prod_option__name
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_prod_option__name
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_prod_variant_option__name
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_prod_option__name
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_prod_variant_option__name
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_prod_option__name
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_prod_variant_option__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Name is required."
+msgstr "Le nom est requis."
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__based_on__pricelist
+msgid "Other Pricelist"
+msgstr "Autre liste de prix"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__compute_type__per
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Please Seelect a file."
+msgstr "Veuillez sélectionner un fichier."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Please fill 'Other Pricelist' column in CSV or XLS file."
+msgstr "Veuillez remplir la colonne « Autre liste de prix » dans le fichier CSV ou XLS."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid ""
+"Please fill the 'Based On' column in CSV or XLS file, if you want to import "
+"pricelist using formula."
+msgstr ""
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Please fill the pricelist column."
+msgstr "Veuillez remplir la colonne de la liste de prix."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Please select proper file when you select 'Formula' option."
+msgstr "Veuillez sélectionner le fichier approprié lorsque vous sélectionnez l'option 'Formule'."
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Pricelist or price are required."
+msgstr "La liste de prix ou le prix sont requis."
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__apply_on__1_product
+msgid "Product"
+msgstr "Produit"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__apply_on__0_product_variant
+msgid "Product Variant"
+msgstr "Variante de produit"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__based_on__list_price
+msgid "Public Price"
+msgstr "Prix Public"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__import_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__import_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__import_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__import_option
+msgid "Select"
+msgstr "Sélectionner"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_product_pricelist__import_prod_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__import_prod_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__import_prod_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__import_prod_option
+msgid "Select Product By"
+msgstr "Sélectionnez le produit par"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_vendor_pricelist__import_prod_variant_option
+msgid "Select Product Variant BY"
+msgstr "Sélectionnez la variante de produit BY"
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist__import_prod_variant_option
+#: model:ir.model.fields,field_description:bi_import_pricelist.field_import_sale_pricelist_wizard__import_prod_variant_option
+msgid "Select Product Variant By"
+msgstr "Sélectionnez la variante de produit par"
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Vendor name is required."
+msgstr "Le nom du fournisseur est requis."
+
+#. module: bi_import_pricelist
+#: model_terms:ir.ui.view,arch_db:bi_import_pricelist.import_sale_pricelist_wizard
+msgid ""
+"When you select a Fix or Percentage option then you need to mention 'Compute"
+" Price' and 'Amount' column on file."
+msgstr ""
+
+#. module: bi_import_pricelist
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#: code:addons/bi_import_pricelist/models/sale.py:0
+#, python-format
+msgid "Wrong Date Format. Date Should be in format YYYY-MM-DD."
+msgstr "Format de date incorrect. Date Doit être au format AAAA-MM-JJ."
+
+#. module: bi_import_pricelist
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_product_pricelist__import_option__xls
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist__import_option__xls
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_sale_pricelist_wizard__import_option__xls
+#: model:ir.model.fields.selection,name:bi_import_pricelist.selection__import_vendor_pricelist__import_option__xls
+msgid "XLS File"
+msgstr "Fichier XLS"
+
+#. module: bi_import_pricelist
+#: model:ir.model,name:bi_import_pricelist.model_import_product_pricelist
+msgid "import.product.pricelist"
+msgstr ""
+
+#. module: bi_import_pricelist
+#: model:ir.model,name:bi_import_pricelist.model_import_sale_pricelist
+msgid "import.sale.pricelist"
+msgstr ""
+
+#. module: bi_import_pricelist
+#: model:ir.model,name:bi_import_pricelist.model_import_sale_pricelist_wizard
+msgid "import.sale.pricelist.wizard"
+msgstr ""
+
+#. module: bi_import_pricelist
+#: model:ir.model,name:bi_import_pricelist.model_import_vendor_pricelist
+msgid "import.vendor.pricelist"
+msgstr ""

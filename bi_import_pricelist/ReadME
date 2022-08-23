@@ -1,0 +1,13 @@
+15.0.0.1 (15-4-2022) : Added import sample file download functionality.
+
+15.0.0.2 (13-05-2022)
+Issue Solved:- 
+    -- If we select wrong file insted of correct file at that time traceback occurred Fixed that issue. 
+
+15.0.0.3 (24-05-2022)
+Issue Solved:-
+    -- when we trying to download demo file with demo user.
+
+15.0.0.4 (01-06-2022)
+Issue Solved:-
+    - while importing xls file for the Import sale Pricelist-All Option from file get an validation error fixed that issue.
